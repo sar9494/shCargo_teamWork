@@ -72,13 +72,13 @@ export const Post = () => {
 
       {/* Right Panel */}
       <div
-        className={`bg-red-100 p-4 rounded-xl transition-all duration-500 ease-in-out ${
+        className={`bg-red-100 p-4 rounded-xl transition-all duration-500 ease-in-out cursor-pointer ${
           select
             ? "w-1/2 opacity-100 translate-x-0 flex"
             : "w-0 opacity-0 translate-x-4 hidden"
         } items-center justify-between`}
       >
-        <span className="text-red-600 font-semibold text-lg">
+        <span className="text-red-600 font-semibold text-lg ">
           📍 Хүргэлтүүд
         </span>
         <button className="text-gray-400 text-xl">›</button>
